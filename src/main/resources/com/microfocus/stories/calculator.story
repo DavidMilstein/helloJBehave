@@ -1,5 +1,5 @@
 
-Scenario: 2 squared
+Scenario: 2 squared|123
 
 Given a variable x with value 2
 When I multiply x by 2
@@ -21,7 +21,7 @@ Given a variable x with value 5
 When I multiply x by 5
 Then x should equal 25
 
-Scenario: 6 squared
+Scenario: 
 Given a variable x with value 6
 When I multiply x by 6
 Then x should equal 36
